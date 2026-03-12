@@ -4,7 +4,9 @@ Retrieval-Augmented Generation (RAG) Assistant for Document Question Answering
 🚀 Project Overview This project implements a RAG (Retrieval-Augmented Generation) pipeline using:
 
 📄 PDF Document Upload
+
 🧩 Text Chunking
+
 🧠 Semantic Search with Hugging Face Embeddings (all-MiniLM-L6-v2)
 ⚡ Vector Storage using FAISS (local, in-memory vector database)
 ✍️ Answer Generation using Google Gemini (gemini-1.5-pro-latest)
