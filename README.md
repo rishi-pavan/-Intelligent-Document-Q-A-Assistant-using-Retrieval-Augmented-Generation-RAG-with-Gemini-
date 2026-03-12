@@ -28,7 +28,6 @@ UI: Streamlit
 Chunking: LangChain’s CharacterTextSplitter
 
 📂 How It Works
-
 User uploads a PDF document through the Streamlit interface.
 The document is split into smaller chunks for efficient processing.
 Each chunk is embedded into vectors using Hugging Face Embeddings.
@@ -37,8 +36,8 @@ When the user asks a question:
 The system retrieves top matching document chunks.
 These chunks are passed as context to Gemini LLM.
 Gemini generates the final answer based on the retrieved content.
-✅ Getting Started
 
+✅ Getting Started
 Clone the Repository git clone https://github.com/yourusername/rag-assistant.git cd rag-assistant
 
 Set Up Virtual Environment
@@ -58,31 +57,36 @@ Ask questions like:
 "Summarize the key points of this document."
 "What does the agreement say about payment terms?"
 Get precise, concise answers powered by RAG!
-💡 Key Features
 
+
+💡 Key Features
 No need to fine-tune the LLM on your data.
 Reduces hallucination by grounding the answers in your document.
 Local and fast vector search using FAISS.
 Supports any text-based PDFs (scanned PDFs with images are not supported unless OCR is added).
-🔒 Limitations
 
+🔒 Limitations
 Only handles PDF documents (not DOCX, CSV, etc.).
 FAISS index is in-memory (optional persistence can be added).
 No user authentication (for now).
-📌 Future Improvements
 
+📌 Future Improvements
 Multi-file document support.
 Persistent FAISS index storage.
 Add OCR for scanned PDFs.
 Support for other vector stores (Chroma, Pinecone).
 Enhanced metadata-based filtering.
+
 📬 Contributing
-
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-🏆 Credits
 
+🏆 Credits
 LangChain[https://github.com/langchain-ai/langchain]
+
 FAISS by Facebook AI Research[https://github.com/facebookresearch/faiss]
+
 Google Gemini Generative AI[https://ai.google.dev/]
+
 Sentence Transformers (Hugging Face)[https://www.sbert.net/]
+
 ⚖️ License This project is licensed under the MIT License.
