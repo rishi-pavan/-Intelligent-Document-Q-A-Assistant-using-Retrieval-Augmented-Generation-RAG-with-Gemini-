@@ -28,6 +28,7 @@ UI: Streamlit
 Chunking: LangChain’s CharacterTextSplitter
 
 📂 How It Works
+
 User uploads a PDF document through the Streamlit interface.
 The document is split into smaller chunks for efficient processing.
 Each chunk is embedded into vectors using Hugging Face Embeddings.
@@ -78,9 +79,11 @@ Support for other vector stores (Chroma, Pinecone).
 Enhanced metadata-based filtering.
 
 📬 Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 🏆 Credits
+
 LangChain[https://github.com/langchain-ai/langchain]
 
 FAISS by Facebook AI Research[https://github.com/facebookresearch/faiss]
