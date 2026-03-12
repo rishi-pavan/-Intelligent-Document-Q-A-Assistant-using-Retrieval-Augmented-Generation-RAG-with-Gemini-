@@ -8,9 +8,13 @@ Retrieval-Augmented Generation (RAG) Assistant for Document Question Answering
 🧩 Text Chunking
 
 🧠 Semantic Search with Hugging Face Embeddings (all-MiniLM-L6-v2)
+
 ⚡ Vector Storage using FAISS (local, in-memory vector database)
+
 ✍️ Answer Generation using Google Gemini (gemini-1.5-pro-latest)
+
 🎯 Interactive Streamlit UI for user interaction
+
 The assistant reads the uploaded document, breaks it into chunks, generates embeddings, stores them in FAISS, retrieves the most relevant chunks for any user query, and uses Gemini to generate a concise, context-based answer.
 
 🛠️ Tech Stack
@@ -22,7 +26,9 @@ Language Model: Google Gemini (gemini-1.5-pro-latest)
 Document Loader: PyPDF2 for PDF reading
 UI: Streamlit
 Chunking: LangChain’s CharacterTextSplitter
+
 📂 How It Works
+
 User uploads a PDF document through the Streamlit interface.
 The document is split into smaller chunks for efficient processing.
 Each chunk is embedded into vectors using Hugging Face Embeddings.
